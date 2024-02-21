@@ -1,0 +1,22 @@
+.header {
+    background-color: black;
+    color: #00BFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #00BFFF;
+}
+
+#greeting {
+    padding: 10px;
+    font-family: 'Anta', sans-serif;
+}
+
+#logout-button {
+    background-color: #00BFFF;
+    color: #eee;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Anta', sans-serif;
+}

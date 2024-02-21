@@ -1,0 +1,68 @@
+@import './reset.css';
+@import './components/form.css';
+@import './components/header.css';
+@import './components/graph.css';
+
+@font-face {
+    font-family: 'Anta';
+    src: url('../fonts/Anta-Regular.ttf') format('truetype');
+  }
+
+body {
+    background-color: black;
+}
+
+#body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.not-found,
+.went-wrong {
+    display: flex;
+    color: #00BFFF;
+    font-size: 50px;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Anta', sans-serif;
+}
+
+.username-container {
+    display: flex;
+    color: #00BFFF;
+    font-size: 32px;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    min-height: 125px;
+    font-family: 'Anta', sans-serif;
+    padding: 1%;
+}
+
+.transaction-container {
+    display: flex;
+    color: #00BFFF;
+    font-size: 32px;
+    flex-direction: column;
+    min-width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.transaction-header {
+    display: flex;
+    color: #00BFFF;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anta', sans-serif;
+}
+
+.transaction {
+    display: flex;
+    color: #eee;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anta', sans-serif;
+}

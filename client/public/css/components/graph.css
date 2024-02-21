@@ -1,0 +1,23 @@
+#graph-container {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 10%;
+    min-height: 300px;
+    justify-content: space-evenly;
+}
+
+#piscine-js-graph-container {
+    flex: 1;
+}
+
+#xp-graph-container {
+    flex: 2;
+    margin-right: 5%;
+}
+
+#user-transactions-container {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 10%;
+    justify-content: space-between;
+}
