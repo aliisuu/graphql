@@ -13,6 +13,8 @@
 
 ### [GraphQL](https://graphql.org)
 
+## Hosted
+https://auudelt-graphql.netlify.app
 
 ## **Setup**
 Clone the repository
